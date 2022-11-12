@@ -7,7 +7,7 @@ public class CustomerManager extends PersonManager {
 
     public void Add() {
         System.out.println("Müşteri eklendi");
-        this.logger.Log("log Mesajı");
+        this.logger.log("log Mesajı");
 
     }
 

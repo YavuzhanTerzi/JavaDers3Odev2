@@ -17,11 +17,11 @@ public class Main {
 
         //Polymorphism
         EmailLogger emailLogger = new EmailLogger();
-        emailLogger.Log(" sa world ");
+        emailLogger.log(" sa world ");
         //----------------------------------
 //        BaseLogger[] loggers = new BaseLogger[]{new FileLogger(), new EmailLogger(), new DatabaseLogger(), new ConsoleLogger()};
 //        for (BaseLogger logger : loggers) {
-//            logger.Log("Log mesajı");
+//            logger.log("Log mesajı");
 //        }
         CustomerManager customerManager = new CustomerManager(new FileLogger());
         customerManager.Add();
