@@ -5,7 +5,7 @@ public class CustomerManager extends PersonManager {
         this.logger = logger;
     }
 
-    public void Add() {
+    public void add() {
         System.out.println("Müşteri eklendi");
         this.logger.log("log Mesajı");
 

@@ -24,7 +24,7 @@ public class Main {
 //            logger.log("Log mesajı");
 //        }
         CustomerManager customerManager = new CustomerManager(new FileLogger());
-        customerManager.Add();
+        customerManager.add();
 
 
     }
